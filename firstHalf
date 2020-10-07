@@ -1,0 +1,56 @@
+sub procedure switchcode(dim b as boolean)
+  '// house code 1 = B
+  sendPair(true)
+  sendPair(false)
+  sendPair(false)
+  sendPair(false)
+  '// unit code 2
+  sendPair(true)
+  sendPair(false)
+  sendPair(false)
+  sendPair(false)
+  '// on = 14
+  sendPair(false)
+  sendPair(true)
+  sendPair(true)
+  sendPair(b)
+  sendBit(false)
+end sub
+
+sub procedure switchcode(dim b as boolean)
+  '// house code 1 = B
+  sendPair(true)
+  sendPair(false)
+  sendPair(false)
+  sendPair(false)
+  '// unit code 2
+  sendPair(true)
+  sendPair(false)
+  sendPair(false)
+  sendPair(false)
+  '// on = 14
+  sendPair(false)
+  sendPair(true)
+  sendPair(true)
+  sendPair(b)
+  sendBit(false)
+end sub
+
+sub procedure switchcode(dim b as boolean)
+  '// house code 1 = B
+  sendPair(true)
+  sendPair(false)
+  sendPair(false)
+  sendPair(false)
+  '// unit code 2
+  sendPair(true)
+  sendPair(false)
+  sendPair(false)
+  sendPair(false)
+  '// on = 14
+  sendPair(false)
+  sendPair(true)
+  sendPair(true)
+  sendPair(b)
+  sendBit(false)
+end sub
